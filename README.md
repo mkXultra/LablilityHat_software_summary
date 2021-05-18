@@ -1,5 +1,5 @@
 # LablilityHat_software_summary
-試作用LablilityHatのソフトウェアまとめページ
+試作用LablilityHatのソフトウェアまとめページ  
 ハードの情報は別リポジトリ
 
 ## LablilityHatとは
