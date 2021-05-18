@@ -37,4 +37,8 @@ IFTTTとはwebhookを用いて連携を行う
 
 ### ソフトウェアアーキテクチャ
 
+[設計資料](https://github.com/mkXultra/LablilityHat_software_design)
+
 ### ソフトウェア
+
+[未着手]()
