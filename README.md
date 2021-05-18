@@ -9,7 +9,7 @@ IFTTTにPUSH送信したり、受信してHat上のLEDを光らせる機能が�
 ## 目次
 1. [実現性調査](#実現性調査)
 2. [技術選定](#技術選定)
-3. [アーキテクチャ](#アーキテクチャ)
+3. [ソフトウェアアーキテクチャ](#ソフトウェアアーキテクチャ)
 4. [ソフトウェア](#ソフトウェア)
 
 ### 実現性調査
@@ -23,9 +23,18 @@ IFTTTとはwebhookを用いて連携を行う
 [JS版IFTTTのWEBHOOK受信調査](https://github.com/mkXultra/js_receive_ifttt_webhook)  
 [Rust版IFTTTのWEBHOOK受信調査](https://github.com/mkXultra/rust_receive_ifttt_webhook)  
 
+#### RaspberryPiHat用
+1. LED  
+[JS版LED動作確認](https://github.com/mkXultra/js_mock_v1_led_blink)  
+[Rust版LED動作確認](https://github.com/mkXultra/js_mock_v1_led_blink)  
+3. Button  
+[未着手]()
 
 ### 技術選定
+開発言語は、今後のIoT開発のスキルアップを図るためにRustを採用する  
+ウェブサーバーのフレームワークはRocketを採用する  
+懸念点はrustcのnightlyバージョンでしか動かないため予期しないセキュリティリスクが生まれる可能性があるが、試作用のためそこは無視する  
 
-### アーキテクチャ
+### ソフトウェアアーキテクチャ
 
 ### ソフトウェア
