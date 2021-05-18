@@ -26,7 +26,7 @@ IFTTTとはwebhookを用いて連携を行う
 #### RaspberryPiHat用
 1. LED  
 [JS版LED動作確認](https://github.com/mkXultra/js_mock_v1_led_blink)  
-[Rust版LED動作確認](https://github.com/mkXultra/js_mock_v1_led_blink)  
+[Rust版LED動作確認](https://github.com/mkXultra/_mock_v1_led_blink)  
 3. Button  
 [未着手]()
 
