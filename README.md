@@ -11,6 +11,7 @@ IFTTTにPUSH送信したり、受信してHat上のLEDを光らせる機能が�
 2. [技術選定](#技術選定)
 3. [ソフトウェアアーキテクチャ](#ソフトウェアアーキテクチャ)
 4. [ソフトウェア](#ソフトウェア)
+5. [基盤配置](#基盤配置)
 
 ### 実現性調査
 
@@ -42,3 +43,54 @@ IFTTTとはwebhookを用いて連携を行う
 ### ソフトウェア
 
 [未着手]()
+
+
+### 基板配置
+
+Raspi接続端子
+LED 1 : LED 2 : button 1 : button 2
+LED 3 : LED 4 : button 3 : button 4
+
+#### LED 1
+
+- GPIO
+    - Red : GPIO17
+    - Green : GPIO4
+    - Blue : GPIO14
+
+#### LED 2
+
+- GPIO
+    - Red : GPIO9
+    - Green : GPIO24
+    - Blue : GPIO22
+
+#### LED 3
+
+- GPIO
+    - Red : GPIO27
+    - Green : GPIO18
+    - Blue : GPIO15
+
+#### LED 4
+
+- GPIO
+    - Red : GPIO11
+    - Green : GPIO7
+    - Blue : GPIO8
+
+#### Button 1
+
+- GPIO : GPIO16
+
+#### Button 2
+
+- GPIO : GPIO21
+
+#### Button 3
+
+- GPIO : GPIO20
+
+#### Button 4
+
+- GPIO : GPIO19
